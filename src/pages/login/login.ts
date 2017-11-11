@@ -10,7 +10,7 @@ import { AngularFireAuth } from 'angularfire2/auth';
 
 
 
-@IonicPage()                    //Added Code from earlier module's to create authentication function Juhopekka Kesti (1601537), Jere Lämsä (1601536), Jenni Hyvärinen (1601549)
+@IonicPage()                    //Added Code from earlier module's to create authentication function // Juhopekka Kesti (1601537), Jere Lämsä (1601536), Jenni Hyvärinen (1601549)
 @Component({
   selector: 'page-login',
   templateUrl: 'login.html',

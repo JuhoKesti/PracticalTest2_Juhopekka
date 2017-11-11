@@ -17,7 +17,7 @@ import { Login } from '../login/login';
 export class RegisterPage {
 
 
-    login = Login;
+    login = Login; // Declared login as Login
 
     @ViewChild('username') user;
     @ViewChild('password') password;

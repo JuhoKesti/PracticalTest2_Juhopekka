@@ -9,6 +9,9 @@ import { Login } from '../login/login'; //Imported login page
  * Ionic pages and navigation.
  */
 
+    /**
+     * // Juhopekka Kesti (1601537), Jere Lämsä (1601536), Jenni Hyvärinen (1601539)
+     */
 @IonicPage()
 @Component({
   selector: 'page-welcome',
@@ -16,7 +19,7 @@ import { Login } from '../login/login'; //Imported login page
 })
 export class WelcomePage {
 
-  login = Login;
+  login = Login; /** Declared login as Login page */
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
