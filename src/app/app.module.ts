@@ -10,6 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { WelcomePage } from '../pages/welcome/Welcome'
 import { Login } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { RecentPage } from '../pages/recent/recent';
 
 const firebaseconfig = {
   apiKey: "AIzaSyBTfy4g0CepsXoBA68U_82AQ8kJ22dxsKw",
@@ -39,7 +40,8 @@ import { FirebaseProvider } from './../providers/firebase/firebase';
     TabsPage,
     WelcomePage,
     Login,
-    RegisterPage
+    RegisterPage,
+    RecentPage
     
   ],
   imports: [
@@ -59,7 +61,8 @@ import { FirebaseProvider } from './../providers/firebase/firebase';
     TabsPage,
     WelcomePage,
     Login,
-    RegisterPage
+    RegisterPage,
+    RecentPage
   ],
   providers: [
     StatusBar,

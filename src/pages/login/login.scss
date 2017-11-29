@@ -2,10 +2,11 @@ page-login {
     
      
      .bg-image {
-     background-image: url('../assets/imgs/s2.jpg');
+     background-image: url('../assets/imgs/flag.jpg');
      background-repeat: no-repeat;
      background-position: center;
      background-size: contain;
+     background-color: black;
      }
      
      .no-scroll .scroll-content {
@@ -15,8 +16,9 @@ page-login {
      .logo {
      display: block;
      margin: auto;
-     width: 50%;
+     width: 40%;
      margin-top: 2vh;
+     visibility: hidden;
      }
     
      .label {
@@ -34,6 +36,7 @@ page-login {
      .text {
      text-align: center;
      margin-top: 30vh;
+     color: white;
      }
     
      .btnWidth {
@@ -44,22 +47,5 @@ page-login {
      margin-top: 8vh;
      width: 74%;
     }
-   
-    .fb-button {
-    position: absolute;
-    left: 60px;
-    margin-top: 1.4vh;
-    width: 30%;
-    height: auto;
-    }
-   
-    .twitter-button {
-    position: absolute;
-    right: 60px;
-    margin-top: 1.4vh;
-    width: 30%;
-    height: auto;
-    }
-   
-    
+     
 }
