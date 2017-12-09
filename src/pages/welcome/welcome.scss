@@ -4,35 +4,24 @@ page-welcome {
         background: white;
     }
 
-    .bg-image {
-        background-image: url('../assets/imgs/s2.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
-
     .padding {
         padding-bottom: 100px;
     }
     .slide1{
-        background-image: url('../assets/imgs/horde.jpg');
+        background-image: url('../assets/imgs/pic1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         background-color: black;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
+
     .slide2{
-        background-image: url('../assets/imgs/alliance.jpg');
+        background-image: url('../assets/imgs/pic2.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         background-color: black;
-    }
-    .slide3{
-        background-image: url('../assets/imgs/flag.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        background-color: black;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 }

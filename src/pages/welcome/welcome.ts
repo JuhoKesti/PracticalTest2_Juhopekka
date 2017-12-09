@@ -10,7 +10,7 @@ import { Login } from '../login/login'; //Imported login page
  */
 
     /**
-     * // Juhopekka Kesti (1601537), Jere Lämsä (1601536), Jenni Hyvärinen (1601539)
+     * // Juhopekka Kesti (1601537)
      */
 @IonicPage()
 @Component({

@@ -2,13 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
 import { AngularFireAuth } from 'angularfire2/auth';
 
-import { Login } from '../login/login';
-/**
- * Generated class for the RegisterPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
+import { Login } from '../login/login'; // Imported login page // Juhopekka Kesti(1601537)
+
 @IonicPage()
 @Component({
   selector: 'page-register',
@@ -38,6 +33,8 @@ export class RegisterPage {
     }).present();
   }
 
+  // registerUser() function for registering new users // Juhopekka Kesti(1601537)
+
   registerUser() {
     this.fire.auth.createUserWithEmailAndPassword(this.user.value + '@domian.xta', this.password.value)
     .then(data => {
@@ -50,9 +47,4 @@ export class RegisterPage {
     });
       console.log('Would register user with ', this.user.value, this.password.value);
   }
-  goback() {
-    this.navCtrl.push('');
-    console.log('Click on button Test Console Log');
- }
-
 }

@@ -1,15 +1,17 @@
 import { Component } from '@angular/core';
 import { NavController, App } from 'ionic-angular';
 
+
+
+
+
 @Component({
-  selector: 'page-contact',
-  templateUrl: 'contact.html'
+  selector: 'page-project',
+  templateUrl: 'project.html',
 })
-export class ContactPage {
+export class ProjectPage {
 
   constructor(public navCtrl: NavController, public app: App) {
     
       }
- }
-
-
+}

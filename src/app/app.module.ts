@@ -3,15 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
+import { TechPage } from '../pages/techskills/tech';
 import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
+import { ProfilePage } from '../pages/profile/profile';
 import { TabsPage } from '../pages/tabs/tabs';
 import { WelcomePage } from '../pages/welcome/Welcome'
 import { Login } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
-import { RecentPage } from '../pages/recent/recent';
+import { ProjectPage } from '../pages/projectwork/project';
+import { ActivitiesPage } from '../pages/activities/activities';
+import { TeamworkPage } from '../pages/teamwork/teamwork';
+import { SkillsPage } from '../pages/softskills/skills';
+// Page imports // Juhopekka Kesti (1601537)
 
+// Firebase config // Juhopekka Kesti (1601537)
 const firebaseconfig = {
   apiKey: "AIzaSyBTfy4g0CepsXoBA68U_82AQ8kJ22dxsKw",
   authDomain: "labwork-8-63a9a.firebaseapp.com",
@@ -34,15 +39,18 @@ import { FirebaseProvider } from './../providers/firebase/firebase';
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
+    TechPage,
     ContactPage,
-    HomePage,
+    ProfilePage,
     TabsPage,
     WelcomePage,
     Login,
     RegisterPage,
-    RecentPage
-    
+    ProjectPage,
+    ActivitiesPage,
+    SkillsPage,
+    TeamworkPage
+        
   ],
   imports: [
     BrowserModule,
@@ -55,14 +63,17 @@ import { FirebaseProvider } from './../providers/firebase/firebase';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
+    TechPage,
     ContactPage,
-    HomePage,
+    ProfilePage,
     TabsPage,
     WelcomePage,
     Login,
     RegisterPage,
-    RecentPage
+    ProjectPage,
+    TeamworkPage,
+    ActivitiesPage,
+    SkillsPage
   ],
   providers: [
     StatusBar,
